@@ -42,7 +42,7 @@
 # cyan-700    "#1C6C66" cy-700
 # cyan-900    "#122F2C" cy-900
 # dragonBlue    "#658594" bl
-# dragonBlue2...
+# dragonBlue2 "#859fac" bl_2
 # dragonPurple  "#8992a7" pu
 # dragonPink "#a292a3" ma
 
@@ -80,37 +80,37 @@ sep_outer = { open = "", close = "" }
 
 [mode]
 # Normal mode
-normal_main = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
-normal_alt = { fg = "#878580", bg = "#282726" } # tx-2, ui
+normal_main = { fg = "#393836", bg = "#c4b28a", bold = true } # fg_dim, ye
+normal_alt = { fg = "#c4b28a", bg = "#363646" } # ye, bg_p2
 
 # Select mode
-select_main = { fg = "#100F0F", bg = "#3AA99F", bold = true } # bg, cy
-select_alt = { fg = "#3AA99F", bg = "#122F2C" } # cy, cy-900
+select_main = { fg = "#393836", bg = "#c4b28a", bold = true } # fg_dim, pu
+select_alt = { fg = "#c4b28a", bg = "#363646" } # pu, bg_p2
 
 # Unset mode
-unset_main = { fg = "#100F0F", bg = "#3AA99F", bold = true } # bg, cy
-unset_alt = { fg = "#3AA99F", bg = "#122F2C" } # cy, cy-900
+unset_main = { fg = "#393836", bg = "#8ea49e", bold = true } # fg_dim, cy
+unset_alt = { fg = "#8ea49e", bg = "#363646" } # cy, bg_p2
 
 [status]
-overall = { fg = "#CECDC3" } # tx
+overall = { fg = "#DCD7BA" } # tx
 
 # Permissions
-perm_type = { fg = "#4385BE" } # bl
-perm_read = { fg = "#D0A215" } # ye
-perm_write = { fg = "#D14D41" } # re
-perm_exec = { fg = "#879A39" } # gr
-perm_sep = { fg = "#878580" } # tx-2
+perm_type = { fg = "#658594" } # bl
+perm_read = { fg = "#c4b28a" } # ye
+perm_write = { fg = "#c4746e" } # re
+perm_exec = { fg = "#699469" } # gr
+perm_sep = { fg = "#9e9b93" } # fg_gray
 
 # Progress
-progress_label = { fg = "#100F0F" } # bg
-progress_normal = { fg = "#3AA99F", bg = "#1C6C66" } # cy, cy-700
-progress_error = { bg = "#D14D41" } # re
+progress_label = { fg = "#1F1F28" } # bg
+progress_normal = { fg = "#658594", bg = "#859fac" } # bl, bl_2
+progress_error = { bg = "#c4746e" } # re
 
 [which]
 cols = 3
-mask = { bg = "#1C1B1A" } # bg-2
-cand = { fg = "#D0A215", bold = true } # ye
-rest = { fg = "#D0A215", italic = true } # ye
+mask = { bg = "#2A2A37" } # bg_p1
+cand = { fg = "#c4b28a", bold = true } # ye
+rest = { fg = "#c4b28a", italic = true } # ye
 desc = { fg = "#575653" } # tx-3
 separator = " "
 separator_style = { }
