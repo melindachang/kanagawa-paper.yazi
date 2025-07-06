@@ -1,28 +1,28 @@
 
 # Сolor palette: https://github.com/thesimonho/kanagawa-paper.nvim
 # ---
-# sumiInk3     "#1F1F28" bg
-# sumiInk4     "#2A2A37" bg_p1
-# sumiInk5     "#363646" bg_p2
-# sumiInk6     "#54546D" bg_p3
-# dragonBlack5 "#393836" fg_dim
-# dragonGray2  "#9e9b93" fg_gray
-# fujiWhite    "#DCD7BA" fg
-# dragonRed    "#c4746e" re
-# dragonOrange "#b6927b" or
-# dragonOrange2"#b98d7b" or_2
-# dragonYellow "#c4b28a" ye
-# yellow-600   "#AD8301" ye-2
+# sumiInk3       "#1F1F28" bg
+# sumiInk4       "#2A2A37" bg_p1
+# sumiInk5       "#363646" bg_p2
+# sumiInk6       "#54546D" bg_p3
+# dragonBlack5   "#393836" fg_dim
+# dragonGray2    "#9e9b93" fg_gray
+# fujiWhite      "#DCD7BA" fg
+# dragonRed      "#c4746e" re
+# dragonOrange   "#b6927b" or
+# dragonOrange2  "#b98d7b" or_2
+# dragonYellow   "#c4b28a" ye
+# yellow-600     "#AD8301" ye-2
 # dragonGreen    "#699469" gr
-# dragonGreen2 "#8a9a7b" gr_2
-# dragonCyan    "#8ea49e" cy
-# cyan-600    "#24837B" cy-2
-# cyan-700    "#1C6C66" cy-700
-# cyan-900    "#122F2C" cy-900
-# dragonBlue    "#658594" bl
-# dragonBlue2 "#859fac" bl_2
-# dragonPurple  "#8992a7" pu
-# dragonPink "#a292a3" ma
+# dragonGreen2   "#8a9a7b" gr_2
+# dragonCyan     "#8ea49e" cy
+# cyan-600       "#24837B" cy-2
+# cyan-700       "#1C6C66" cy-700
+# cyan-900       "#122F2C" cy-900
+# dragonBlue     "#658594" bl
+# dragonBlue2    "#859fac" bl_2
+# dragonPurple   "#8992a7" pu
+# dragonPink     "#a292a3" ma
 
 [mgr]
 cwd = { fg = "#DCD7BA", bold = true } # fg
@@ -33,7 +33,7 @@ preview_hovered = { underline = true }
 
 # Find
 find_keyword = { fg = "#c4b28a", reversed = true } # pu
-find_position = { fg = "#393836", bold = true, italic = true } # fg_dim
+find_position = { fg = "#9e9b93", bold = true, italic = true } # fg_gray
 
 # Marker
 marker_copied = { fg = "#699469", bg = "#699469" } # gr, gr
@@ -94,12 +94,12 @@ separator = " "
 separator_style = { }
 
 [confirm]
-border = { fg = "#54546D" } # bg_p3
+border = { fg = "#363646" } # bg_p2
 title = { fg = "#9e9b93", bold = true } # fg_gray
 content = { fg = "#DCD7BA", bold = true } # fg
 list = { fg = "#DCD7BA" } # fg
-btn_yes = { fg = "#DCD7BA", bg = "#54546D", bold = true } # fg, bg_p3
-btn_no = { fg = "#9e9b93", bg = "#363646" } # fg_gray, bg_p2
+btn_yes = { fg = "#DCD7BA", bg = "#363646", bold = true } # fg, bg_p2
+btn_no = { fg = "#9e9b93", bg = "#2A2B37" } # fg_gray, bg_p1
 
 [spot]
 border = { fg = "#54546D" } # bg_p3
@@ -151,8 +151,8 @@ rules = [
   { mime = "audio/*", fg = "#c4b28a" }, # ye
 
   # Broken symbolic link
-  { name = "*", is = "orphan", fg = "#393836", crossed = true }, # fg_dim
-  { name = "*/", is = "orphan", fg = "#393836", crossed = true }, # fg_dim
+  { name = "*", is = "orphan", fg = "#9e9b93", crossed = true }, # fg_gray
+  { name = "*/", is = "orphan", fg = "#9e9b93", crossed = true }, # fg_gray
 
   # Symbolic links
   { name = "*", is = "link", fg = "#8ea49e" }, # cy
@@ -162,7 +162,7 @@ rules = [
   { name = "*", is = "exec", fg = "#699469" }, # gr
 
   # Empty files
-  { mime = "inode/empty", fg = "#393836" }, # fg_dim
+  { mime = "inode/empty", fg = "#9e9b93" }, # fg_gray
 
   # Fallback
   { name = "*", fg = "#9e9b93" }, # fg_gray
