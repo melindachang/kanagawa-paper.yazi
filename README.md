@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pkg add melindachang/kanagawa-paper.yazi
+ya pkg add melindachang/kanagawa-paper
 ```
 
 ## ⚙️ Usage
