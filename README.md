@@ -6,7 +6,7 @@
 	Kanagawa Paper Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
-## 👀 Preview
+## 🖼️ Preview
 
 <img src="preview.png" width="600" />
 
