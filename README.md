@@ -6,6 +6,8 @@
 	Kanagawa Paper Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
+<p align="center">Colors extracted from <a href="https://github.com/thesimonho/kanagawa-paper.nvim">thesimonho/kanagawa-paper.nvim</a>.</p>
+
 ## 🖼️ Preview
 
 <img src="preview.png" width="600" />
