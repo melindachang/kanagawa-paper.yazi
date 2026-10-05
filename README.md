@@ -6,6 +6,8 @@
 	Kanagawa Paper Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
+<p align="center">Inspired by <a href="https://github.com/thesimonho/kanagawa-paper.nvim">thesimonho/kanagawa-paper.nvim</a>.</p>
+
 ## 👀 Preview
 
 <img src="preview.png" width="600" />
@@ -31,6 +33,6 @@ See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overv
 
 ## 📜 License
 
-The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
+The flavor is MIT-licensed, and the included `.tmTheme` is also MIT-licensed.
 
 Check the [LICENSE](LICENSE) and [LICENSE-tmtheme](LICENSE-tmtheme) file for more details.
