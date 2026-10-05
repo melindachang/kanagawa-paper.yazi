@@ -177,21 +177,24 @@ prepend_dirs = [
 
   { name = "Desktop", text = "", fg = "#658594" },     # bl
   { name = "Development", text = "󱃖", fg = "#658594" }, # bl
-  { name = "Documents", text = "", fg = "#658594" },   # bl
-  { name = "Downloads", text = "", fg = "#658594" },   # bl
+  { name = "Documents", text = "󱔗", fg = "#658594" },   # bl
+  { name = "Downloads", text = "󰅢", fg = "#658594" },   # bl
   { name = "Games", text = "󰊗", fg = "#658594" },       # bl
   { name = "Inbox", text = "", fg = "#658594" },       # bl
-  { name = "Library", text = "󱉟", fg = "#658594" },     # bl
+  { name = "Library", text = "󰗚", fg = "#658594" },     # bl
   { name = "Movies", text = "", fg = "#658594" },      # bl
   { name = "Music", text = "", fg = "#658594" },       # bl
   { name = "Photos", text = "", fg = "#658594" },      # bl
   { name = "Pictures", text = "", fg = "#658594" },    # bl
+  { name = "Projects", text = "", fg = "#658594" },    # bl
   { name = "Public", text = "", fg = "#658594" },      # bl
   { name = "Shared", text = "", fg = "#658594" },      # bl
+  { name = "Templates", text = "󰃥", fg = "#658594" },   #bl
   { name = "Videos", text = "", fg = "#658594" },      # bl
 ]
 
 prepend_exts = [
+  # raster
   { name = "avif", text = "", fg = "#938AA9" }, # vi_sp
   { name = "bmp", text = "", fg = "#938AA9" },  # vi_sp
   { name = "gif", text = "", fg = "#938AA9" },  # vi_sp
@@ -204,6 +207,11 @@ prepend_exts = [
   { name = "raf", text = "", fg = "#938AA9" },  # vi_sp
   { name = "dng", text = "", fg = "#938AA9" },  # vi_sp
 
+  # vector
+  { name = "svg", text = "󰠱", fg = "#938AA9" }, # vi_sp
+  { name = "eps", text = "󰠱", fg = "#938AA9" }, # vi_sp
+
+  # videos
   { name = "3gp", text = "", fg = "#c4b28a" },  # ye
   { name = "cast", text = "", fg = "#c4b28a" }, # ye
   { name = "m4v", text = "", fg = "#c4b28a" },  # ye
@@ -215,11 +223,22 @@ prepend_exts = [
   { name = "webm", text = "", fg = "#c4b28a" }, # ye
   { name = "wmv", text = "", fg = "#c4b28a" },  # ye
 
+  # plaintext
   { name = "txt", text = "󰈙", fg = "#9e9b93" }, # fg_gray
+  { name = "md", text = "", fg = "#9e9b93" },  # fg_gray
+
+  # documents
+  { name = "pdf", text = "󰈦", fg = "#c4746e" }, # re
+
+  # dev
+  { name = "gitignore", text = "󰊢", fg = "#b6927b" }, # or
+  { name = "toml", text = "", fg = "#c4746e" },      # re
+  { name = "lock", text = "", fg = "#9e9b93" },      # fg_gray
+  { name = "license", text = "", fg = "#c4b28a" },   # ye
 ]
 
 prepend_conds = [
-  { if = "dir & hovered", text = "", fg = "#658594" }, # bl
+  { if = "dir & hovered", text = "", fg = "#658594" }, # bl
   { if = "dir", text = "", fg = "#658594" },           # bl
   { if = "exec", text = "", fg = "#699469" },          # gr
   { if = "!dir", text = "", fg = "#DCD7BA" },          # fg
