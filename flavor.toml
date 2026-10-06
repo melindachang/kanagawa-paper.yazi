@@ -196,6 +196,9 @@ prepend_dirs = [
 prepend_files = [
   { name = ".gitignore", text = "󰊢", fg = "#b6927b" }, # or
   { name = "license", text = "", fg = "#c4b28a" },    # ye
+  { name = "license.md", text = "", fg = "#c4b28a" }, # ye
+  { name = "readme.md", text = "", fg = "#9e9b93" },  # fg_gray
+
 ]
 
 prepend_exts = [
