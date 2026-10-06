@@ -186,11 +186,16 @@ prepend_dirs = [
   { name = "Music", text = "", fg = "#658594" },       # bl
   { name = "Photos", text = "", fg = "#658594" },      # bl
   { name = "Pictures", text = "", fg = "#658594" },    # bl
-  { name = "Projects", text = "", fg = "#658594" },    # bl
+  { name = "Projects", text = "", fg = "#658594" },    # bl
   { name = "Public", text = "", fg = "#658594" },      # bl
   { name = "Shared", text = "", fg = "#658594" },      # bl
-  { name = "Templates", text = "󰃥", fg = "#658594" },   #bl
+  { name = "Templates", text = "", fg = "#658594" },   #bl
   { name = "Videos", text = "", fg = "#658594" },      # bl
+]
+
+prepend_files = [
+  { name = ".gitignore", text = "󰊢", fg = "#b6927b" }, # or
+  { name = "license", text = "", fg = "#c4b28a" },    # ye
 ]
 
 prepend_exts = [
@@ -224,17 +229,15 @@ prepend_exts = [
   { name = "wmv", text = "", fg = "#c4b28a" },  # ye
 
   # plaintext
-  { name = "txt", text = "󰈙", fg = "#9e9b93" }, # fg_gray
-  { name = "md", text = "", fg = "#9e9b93" },  # fg_gray
+  { name = "txt", text = "󰈙", fg = "#9e9b93" },      # fg_gray
+  { name = "markdown", text = "", fg = "#9e9b93" }, # fg_gray
 
   # documents
   { name = "pdf", text = "󰈦", fg = "#c4746e" }, # re
 
   # dev
-  { name = "gitignore", text = "󰊢", fg = "#b6927b" }, # or
-  { name = "toml", text = "", fg = "#c4746e" },      # re
-  { name = "lock", text = "", fg = "#9e9b93" },      # fg_gray
-  { name = "license", text = "", fg = "#c4b28a" },   # ye
+  { name = "toml", text = "", fg = "#c4746e" }, # re
+  { name = "lock", text = "", fg = "#9e9b93" }, # fg_gray
 ]
 
 prepend_conds = [
