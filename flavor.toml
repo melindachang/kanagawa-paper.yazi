@@ -186,7 +186,7 @@ prepend_dirs = [
   { name = "Music", text = "", fg = "#658594" },       # bl
   { name = "Photos", text = "", fg = "#658594" },      # bl
   { name = "Pictures", text = "", fg = "#658594" },    # bl
-  { name = "Projects", text = "", fg = "#658594" },    # bl
+  { name = "Projects", text = "", fg = "#658594" },    # bl
   { name = "Public", text = "", fg = "#658594" },      # bl
   { name = "Shared", text = "", fg = "#658594" },      # bl
   { name = "Templates", text = "", fg = "#658594" },   #bl
